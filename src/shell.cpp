@@ -2,8 +2,6 @@
 
 shell::shell(char * ipaddr, int port_nr)
 {
-	//MessageBoxA(NULL, "hentai", "idk", NULL);
-
 	WSADATA wsaData;
 	SOCKET Winsock;
 	SOCKET Sock;

